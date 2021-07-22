@@ -1,22 +1,26 @@
 # Changelog
 Aplikasi  Manajemen  Sertifikat  Elektronik  (AMS)  adalah  aplikasi  yang dikembangankan  dan  dikelola  Balai  Sertifikasi  Elektronik  (BSrE)  untuk melakukan  proses  pendaftaran,  pembaruan,  pencabutan  dan  monitoring sertifikat elektronik milik BSrE. Pada aplikasi AMSterdapat beberapa roles, diantara lain, Registration Authority(RA),  Verifikator dan Pengguna.
+
 Dengan   AMS   ini,   pengguna   dapat   melakukan   manajemen   sertifikat elektronik miliknya. Mulai dari pengajuan pendaftaran sertifikat elektronik, pembaruan sertifikat elektronik, pengajuan pencabutan sertifikat elektronik, melakukan resetpassphrasesertifikat  elektronik  dan  memonitor  proses sertifikat elektronik miliknya secara mandiri
 
 Semua perubahan penting pada aplikasi ini akan di dokumentasikan dalam file ini. File ini dibuat merujuk pada [standard-version](https://github.com/conventional-changelog/standard-version)
 
-## v2.1.5 - 18-07-2021
+## v2.1.5
+Dirilis pada tanggal : 18-07-2021
 ### Fixed
 - Delete data pengguna ada local storage browser setelah selesai export data
 - HTTP Status 5xx
 
-## v2.1.4 - 17-07-2021
+## v2.1.4
+Dirilis pada tanggal : 17-07-2021
 ### Changed
 - Synchronous Request pada proses export data pengguna, dan proses berjalan di background aplikasi
 
 ### Fixed
 - Revoke sertifikat pengguna
 
-## v2.1.3 - 16-07-2021
+## v2.1.3
+Dirilis pada tanggal : 16-07-2021
 ### Added
 - `Menangguhkan / Mengaktifkan` sertifikat elektronik
 - Filter berdasarkan status sertifikat elektronik
@@ -32,7 +36,8 @@ Semua perubahan penting pada aplikasi ini akan di dokumentasikan dalam file ini.
 - Responsive dropdown aksi pada table daftar sertifikat elektronik
 - Typo button `Reload`
 
-## v2.1.2 - 11-07-2021
+## v2.1.2
+Dirilis pada tanggal : 11-07-2021
 ### Changed
 - Hanya Admin dan RA BSrE yang dapat melakukan filter `Include / Exclude` Instansi
 
@@ -41,7 +46,8 @@ Semua perubahan penting pada aplikasi ini akan di dokumentasikan dalam file ini.
 - Filter pada table `Manajemen RA`
 - Logout secara otomatis jika sesi login sudah habis
 
-## v2.1.1 - 10-07-2021
+## v2.1.1
+Dirilis pada tanggal : 10-07-2021
 ### Added
 - Fiter dan Sorting pada tabel daftar pengguna di menu `Tambah Beberapa Pengguna`
 - Form `Organisasi` pada menu `Tambah beberapa pengguna dari file csv`
@@ -70,7 +76,8 @@ Semua perubahan penting pada aplikasi ini akan di dokumentasikan dalam file ini.
 - Pembatasan unggah file maksimal 1 Mb
 - Form `Reason` ketika proses `Menangguhkan / Mengaktifkan`
 
-## v2.1.0 - 29-06-2021
+## v2.1.0
+Dirilis pada tanggal : 29-06-2021
 ### Added
 - ADMIN dapat `Menangguhkan / Mengaktifkan` kembali pengguna
 - ADMIN dapat `Menangguhkan / Mengaktifkan` kembali instansi
