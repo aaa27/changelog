@@ -1,17 +1,87 @@
 # Changelog
-All notable changes to this project will be documented in this file.
+Aplikasi  Manajemen  Sertifikat  Elektronik  (AMS)  adalah  aplikasi  yang dikembangankan  dan  dikelola  Balai  Sertifikasi  Elektronik  (BSrE)  untuk melakukan  proses  pendaftaran,  pembaruan,  pencabutan  dan  monitoring sertifikat elektronik milik BSrE. Pada aplikasi AMSterdapat beberapa roles, diantara lain, Registration Authority(RA),  Verifikator dan Pengguna.
+Dengan   AMS   ini,   pengguna   dapat   melakukan   manajemen   sertifikat elektronik miliknya. Mulai dari pengajuan pendaftaran sertifikat elektronik, pembaruan sertifikat elektronik, pengajuan pencabutan sertifikat elektronik, melakukan resetpassphrasesertifikat  elektronik  dan  memonitor  proses sertifikat elektronik miliknya secara mandiri
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+Semua perubahan penting pada aplikasi ini akan di dokumentasikan dalam file ini. File ini dibuat merujuk pada [standard-version](https://github.com/conventional-changelog/standard-version)
 
-## [1.0.3] - 2021-07-21
+## v2.1.5 - 18-07-2021
+### Fixed
+- Delete data pengguna ada local storage browser setelah selesai export data
+- HTTP Status 5xx
+
+## v2.1.4 - 17-07-2021
 ### Changed
-- Menambahkan deskripsi project
+- Synchronous Request pada proses export data pengguna, dan proses berjalan di background aplikasi
 
-## [1.0.1] - 2021-07-21
+### Fixed
+- Revoke sertifikat pengguna
+
+## v2.1.3 - 16-07-2021
 ### Added
-- change something
-- create new tag 
-- push --tags
-- push commit
-{"mode":"full","isActive":false}
+- `Menangguhkan / Mengaktifkan` sertifikat elektronik
+- Filter berdasarkan status sertifikat elektronik
+- Export data verifikator
+
+### Changed
+- Parallel Request pada proses export data pengguna
+- Pembatasan informasi yang diberikan pada tabel hasil export pengguna / verifikator
+
+## Fixed
+- `Menangguhkan / Mengaktifkan` sertifikat elektronik dan pengguna
+- Urutan Tanggal pada label grafik
+- Responsive dropdown aksi pada table daftar sertifikat elektronik
+- Typo button `Reload`
+
+## v2.1.2 - 11-07-2021
+### Changed
+- Hanya Admin dan RA BSrE yang dapat melakukan filter `Include / Exclude` Instansi
+
+### Fixed
+- Tombol loading pada table pengguna saat proses mencari data
+- Filter pada table `Manajemen RA`
+- Logout secara otomatis jika sesi login sudah habis
+
+## v2.1.1 - 10-07-2021
+### Added
+- Fiter dan Sorting pada tabel daftar pengguna di menu `Tambah Beberapa Pengguna`
+- Form `Organisasi` pada menu `Tambah beberapa pengguna dari file csv`
+- Component `Surat Rekomendasi`
+- Informasi status `SEGEL`
+- `Reload` data pada tabel
+- Filter `Include / Exclude` Instansi
+
+### Fixed
+- Notifikasi pada saat aktivasi akun
+- `Menangguhkan / Mengaktifkan` kembali instansi
+- Dropzone pada menu tambah beberapa pengguna
+- Notifikasi setelah proses tambah beberapa pengguna
+- Form pilih Surat Rekomendasi
+- Notifikasi setalah melakukan `Menangguhkan / Mengaktifkan`
+- Filter pada setiap tabel
+- Filter pada menu `Manajemen RA`
+
+### Changed
+- Notifikasi saat proses `KYC` gagal
+- Format csv File untuk tambah pengguna
+- Notiifikasi saat proses `Aktivasi Akun`
+- Pembatasan, maksimal 100 data saat tambah beberapa pengguna
+- Form pilih surat rekomendasi di setiap permohonan
+- Menampilkan tombol `Menangguhkan / Mengaktifkan` pada table pengguna
+- Pembatasan unggah file maksimal 1 Mb
+- Form `Reason` ketika proses `Menangguhkan / Mengaktifkan`
+
+## v2.1.0 - 29-06-2021
+### Added
+- ADMIN dapat `Menangguhkan / Mengaktifkan` kembali pengguna
+- ADMIN dapat `Menangguhkan / Mengaktifkan` kembali instansi
+- Integrasi `Live Chat` Call Center BSrE.
+- `Petunjuk Teknis` penggunaan aplikasi AMS 2.0
+- Integrasi `KYC` pada proses aktivasi akun
+- Tambah Beberapa Pengguna
+- Tambah beberapa pengguna dari file csv
+
+### Changed
+- Form Organisasi Unit menjadi Alpha Numeric
+- Tidak ada maksimum panjang karakter pada form Organisasi Unit
+
+
