@@ -5,6 +5,38 @@ Dengan   AMS   ini,   pengguna   dapat   melakukan   manajemen   sertifikat elek
 
 Semua perubahan penting pada aplikasi ini akan di dokumentasikan dalam file ini. File ini dibuat merujuk pada [standard-version](https://github.com/conventional-changelog/standard-version)
 
+## v2.1.7
+Dirilis pada tanggal : 31-07-2021
+### Fixed
+- Approval modal
+
+### Removed
+- User activity list
+
+## v2.1.6
+Dirilis pada tanggal : 30-07-2021
+### Fixed
+- Filter by segel owner
+- Notification when the session time is about to end
+- Login Notification
+- Document preview
+
+### Update
+- Continue the process of exporting data if the session time is up
+- New look at process user activation
+- Upload supporting documents on the menu management ra and verifier
+
+### Added
+- Changloge
+- Data verification officer information 
+- List of users whose electronic certificates are about to expire
+- User data history list
+- User activity list
+
+### Changed
+- Validation of user activation form
+- Disable the change user data tab if the user status is new
+
 ## v2.1.5
 Dirilis pada tanggal : 18-07-2021
 ### Fixed
