@@ -5,6 +5,20 @@ Dengan   AMS   ini,   pengguna   dapat   melakukan   manajemen   sertifikat elek
 
 Semua perubahan penting pada aplikasi ini akan di dokumentasikan dalam file ini. File ini dibuat merujuk pada [standard-version](https://github.com/conventional-changelog/standard-version)
 
+
+## v2.1.9
+Dirilis pada tanggal : 05-08-2021
+### Added
+- 'details' button to display more complete user information
+
+### Changed
+- sorting by date in table
+
+## v2.1.8
+Dirilis pada tanggal : 03-08-2021
+### Fixed
+- Information on list of users whose electronic certificates are about to expire
+
 ## v2.1.7
 Dirilis pada tanggal : 31-07-2021
 ### Fixed
