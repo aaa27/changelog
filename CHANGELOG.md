@@ -5,36 +5,16 @@ Dengan   AMS   ini,   pengguna   dapat   melakukan   manajemen   sertifikat elek
 
 Semua perubahan penting pada aplikasi ini akan di dokumentasikan dalam file ini. File ini dibuat merujuk pada [standard-version](https://github.com/conventional-changelog/standard-version)
 
-## v3.1.0
-Dirilis pada tanggal : 31-06-2022
-### Add
-- Penerbitan Segel Elektronik
-- Filter sertifikat elektronik berdasarkan jenis sertifikat
-- Manajemen token pengguna oleh admin
-
-### Update
-- perbaikan logo aplikasi
-- perubahan icon eseal dan esign
-- Penonaktifan sementraa fitur Segel Elektronik
-
-## v3.0.2
-Dirilis pada tanggal : 07-06-2022
-### Update
-- perbaikan fitur hapus data instansi
-- perbaikan fitur update data instansi
-
-## v3.0.1
-Dirilis pada tanggal : 31-05-2022
-### Update
-- perbaikan pembagian akses role dengan Keycloak
-
 ## v3.0.0
-Dirilis pada tanggal : 14-05-2022
+Dirilis pada tanggal : 31-06-2022
 ### Added
-- login method with keycloak 
+- manajemen akun pengguna terpusat
+- login dengan 2FA 
+- terintegrasi dengan sistem data kependudukan
+- penambahan fitur segel elektronik (beta)
 
 ### Update
-- perubahan proses validasi pada form aktivasi
+- peningkatan performa aplikasi
 
 ## v2.3.1
 Dirilis pada tanggal : 04-03-2022
